@@ -151,10 +151,13 @@ body{
 /* adiciona os elementos graficos para telas menores como por exemplo celulares*/
 @media only screen and (max-width: 950px) {
     .icon_side_bar {
-        display: initial;
-        position: relative;
+        display: block;
+        position: absolute;
         left: 3%;
         top: 3%;
+    } 
+    .navbar-header a{
+        margin-left: 25%;
     }    
     .menus {
         display: none;
