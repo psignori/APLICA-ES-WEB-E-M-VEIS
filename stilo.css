@@ -139,6 +139,13 @@ body{
 
 /* adiciona os elementos graficos para telas menores como por exemplo celulares*/
 @media only screen and (max-width: 950px) {
+    .navbar-header {
+        margin-left: 3%;
+    }
+    
+    .container-fluid {
+        margin-left: -100%;
+    }
     .container-index  {
         grid-template-columns: 100%;
     }
