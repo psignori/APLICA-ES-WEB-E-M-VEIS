@@ -156,8 +156,11 @@ body{
         left: 3%;
         top: 3%;
     } 
+    .navbar-header {
+        position: relative;
+    }
     .navbar-header a{
-        margin-left: 25%;
+        margin-left: 25px;
     }    
     .menus {
         display: none;
