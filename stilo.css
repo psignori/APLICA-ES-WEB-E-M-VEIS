@@ -154,9 +154,12 @@ body{
         display: block;
         position: absolute;
         left: 5px;
-        top: 5px;
-        border: solid white;
+        top: 2px;
+        background-color: white;
     } 
+    .icon_side_bar:hover {
+        background-color: #eee;
+    }
     .navbar-header {
         position: relative;
     }
@@ -164,7 +167,7 @@ body{
         margin-left: 45px;
     }    
     .menus {
-        display: none;
+        /*display: none;*/
     }
     .container-index  {
         grid-template-columns: 100%;
