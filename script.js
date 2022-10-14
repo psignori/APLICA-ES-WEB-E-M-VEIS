@@ -8,3 +8,12 @@ function closeWindow () {
     document.getElementById("janela").style.display = 'none';
     window.location.reload(); 
 }
+
+const btnMenu = document.getElementById('button-menu');
+
+function toggleMenu (){
+    const menus = document.getElementById('menus');
+    menus.classList.toggle('active');
+}
+
+btnMenu.addEventListener('click', toggleMenu );
