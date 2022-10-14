@@ -148,6 +148,10 @@ body{
 .icon_side_bar{
     display: none;
 }
+
+.button-menu {
+    background: none;   
+}
 /* adiciona os elementos graficos para telas menores como por exemplo celulares*/
 @media only screen and (max-width: 950px) {
     .icon_side_bar {
