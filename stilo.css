@@ -168,6 +168,9 @@ body{
         left: -1px;
         background-color: #313030;
     }
+    .menus ul{
+        width: 80%;
+    }
     .menus .active {
         width: 100%;
     }
