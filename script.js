@@ -9,11 +9,11 @@ function closeWindow () {
     window.location.reload(); 
 }
 
-const btnMenu = document.getElementById('button-menu');
+const btnMenu = document.getElementById("button-menu");
 
 function toggleMenu (){
-    const menus = document.getElementById('menus');
-    menus.classList.toggle('active');
+    const menus = document.getElementById("menus");
+    menus.classList.toggle("active");
 }
 
-btnMenu.addEventListener('click', toggleMenu );
+btnMenu.addEventListener("click", toggleMenu );
