@@ -154,6 +154,12 @@ body{
 }
 /* adiciona os elementos graficos para telas menores como por exemplo celulares*/
 @media only screen and (max-width: 950px) {
+    .menus[data-ativo='false']{
+        display: none;
+    }
+    .menus[data-ativo='true']{
+        display: block;
+    }
     .icon_side_bar {
         display: block;
         position: absolute;
