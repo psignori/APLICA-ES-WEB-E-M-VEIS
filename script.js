@@ -9,7 +9,11 @@ function closeWindow () {
     window.location.reload(); 
 }
 
-function toggleMenu (){
-    const menus = document.getElementById("menus");
-    menus.classList.toggle("active");
-}
+document.addEventListener("DOMContentLoaded", function(){
+   document.querySelector(".button-menu").addEventListener("click", function(e){
+      e.preventDefault();
+      var navi = document.querySelector(".menus");
+      var navi_ativo = navi.dataset.ativo;
+      navi.setAttribute("data-ativo", navi_ativo == "true" ? "false" : "true");
+   });
+});
