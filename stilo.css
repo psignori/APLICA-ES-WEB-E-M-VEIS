@@ -154,22 +154,25 @@ body{
         display: block;
         position: absolute;
         left: 5px;
-        top: 4px;
+        top: 5px;
     } 
     .menu_1 {
-        top: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px;
         height: 5px;
         width: 20px;
         background-color: white;
     }
     .menu_2 {
-        top: 25px;
+        margin-top: 7px;
+        margin-bottom: 7px;
         height: 5px;
         width: 20px;
         background-color: white;
     }
     .menu_3 {
-        top: 40px;
+        margin-top: 7px;
+        margin-bottom: 7px;
         height: 5px;
         width: 20px;
         background-color: white;
