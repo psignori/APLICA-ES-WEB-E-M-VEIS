@@ -164,6 +164,9 @@ body{
         left: -2%;
         background-color: #313030;
     }
+    .menus .active {
+        width: 100%;
+    }
     .menus[data-ativo='false']{
         display: none;
     }
