@@ -21,23 +21,25 @@
     <!-- Navbar do codigo indicando quais indices podemos acessar e onde estamos -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#"><b>Patrick Signori</b></a>
-          </div>
-          <div class="menus">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="formacao.html">Formação</a></li>
-              <li class="active"><a href="#">Portfólio</a></li>
-              <li><a href="contato.html">Contato</a></li>
-            </ul>
-          </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><b>Patrick Signori</b></a>
+            </div>
+            <div class="menus"  data-ativo="false" id="menus">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="formacao.html">Formação</a></li>
+                  <li><a href="portfolio.html">Portfólio</a></li>
+                  <li class="active"><a href="#">Contato</a></li>
+                </ul>
+            </div>
         </div>
       </nav>
       <div class="icon_side_bar">
-        <div class="menu_1"></div>
-        <div class="menu_2"></div>
-        <div class="menu_3"></div>
+        <button type="button" id="button-menu" onclick="toggleMenu()" data-toggle="collapse" class="button-menu">
+            <div class="menu_1"></div>
+            <div class="menu_2"></div>
+            <div class="menu_3"></div>
+        </button>
       </div>
       <!-- Div que mostra os links para acesso -->
       <div class="links">
