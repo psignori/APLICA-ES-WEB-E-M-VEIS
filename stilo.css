@@ -154,9 +154,13 @@ body{
 }
 /* adiciona os elementos graficos para telas menores como por exemplo celulares*/
 @media only screen and (max-width: 950px) {
+    body {
+        position: relative;
+    }
     .menus {
-        z-index: 10;
-        width: 80%;
+        position: absolute;
+        z-index: 1000;
+        width: 50%;
         left: 0%;
     }
     .menus[data-ativo='false']{
