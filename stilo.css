@@ -160,9 +160,9 @@ body{
     .menus {
         position: absolute;
         z-index: 1000;
-        width: 60%;
-        left: 0%;
-        background-color: #4e4e4e;
+        width: 70%;
+        left: -2%;
+        background-color: #313030;
     }
     .menus[data-ativo='false']{
         display: none;
